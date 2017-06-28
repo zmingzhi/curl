@@ -1,0 +1,19 @@
+{
+  "name": "zmingzhi/curl",
+  "description": "curl组件提供远程请求操作，支持文件的上传和下载",
+  "type": "project",
+  "keywords": [
+    "curl"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\curl\\": "src"
+    }
+  }
+}
